@@ -11,7 +11,7 @@ export default function BirthdayApp() {
 
   const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (name.toLowerCase() === 'anuvinda' && dob === '2002-12z-04') {
+    if (name.toLowerCase() === 'anuvinda' && dob === '2002-12-04') {
       setIsLoggedIn(true);
       setError('');
     } else {
